@@ -30,6 +30,8 @@ header a {
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 main {
