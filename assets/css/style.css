@@ -10,6 +10,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color:#3a3a3a;
     font-family: 'Lato',sans-serif;
 }
 
@@ -45,12 +46,21 @@ h1 {
 }
 
 .active {
-    border-bottom: #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 3px 3px #3a3a3a;
 }
 
 main {
-    flex: 1 0 auto;
     background-color: blue;
+    flex: 1 0 auto;
 }
 
 footer {
