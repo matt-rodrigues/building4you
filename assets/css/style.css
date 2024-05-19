@@ -157,7 +157,9 @@ main {
     color: #3a3a3a;
 }
 
-#welcome {
+#welcome p {
+    padding: 0 20px;
+}
 
 }    
 
