@@ -132,13 +132,12 @@ main {
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
-    /* Makes the square image into a circle */
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
 }
 
-#benefits-image {
+#hand-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,10 +193,54 @@ main {
         width: 300px;
         right: 50px;
     }
+
+    #services-health,
+    #services-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #services-health > div,
+    #services-mental > div {
+        width: 75%;
+    }
+
+    #services-mental > div {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+}
+
+@media screen and (min-width: 1200px) {    
+    #services {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #services > div {
+        flex: 1;
+    }
+
+    #hand-image {
+        order: 0
+    }
+
+    #services-mental {
+        order: 1;
+    }
+
+    #services-mental > div {
+        align-self: flex-start;
+    }
+
+    #services-health > div {
+        align-self: flex-end;
     }
 }
