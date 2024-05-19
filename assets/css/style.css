@@ -159,8 +159,13 @@ main {
 
 #welcome p {
     padding: 0 20px;
+    margin: 5px 0;
 }
 
+#howtohelp p {
+    padding: 0 20px;
+    margin: 5px 0;
+}
 }    
 
 @media screen and (min-width: 768px) {
