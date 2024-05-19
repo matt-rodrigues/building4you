@@ -37,10 +37,6 @@ header a {
     color: inherit;
 }
 
-p {
-    margin-right: 0.7rem;
-}
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -160,6 +156,10 @@ main {
     padding: 5%;
     color: #3a3a3a;
 }
+
+#welcome {
+
+}    
 
 @media screen and (min-width: 768px) {
     nav {
