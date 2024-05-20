@@ -157,6 +157,9 @@ main {
     color: #3a3a3a;
 }
 
+#welcome {
+    background-color: #faf9f6;
+}
 .welcome p {
     padding: 0 20px;
     margin: 5px 0;
@@ -178,7 +181,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #E4EDF6;
+    background-color: #faf9f6;
     margin: 20px 0;
     padding: 20px 0;
 }
