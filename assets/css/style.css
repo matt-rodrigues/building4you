@@ -157,9 +157,16 @@ main {
     color: #3a3a3a;
 }
 
-#welcome p {
+.welcome p {
     padding: 0 20px;
     margin: 5px 0;
+    font-size: large;
+}
+
+.welcome img {
+    float: left;
+    width: 450px;
+    margin-right: 50px;
 }
 
 #howtohelp p {
