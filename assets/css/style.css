@@ -219,6 +219,12 @@ main {
     font-size: 14px;
 }
 
+#contact {
+    font-size: large;
+    padding: 0 20px;
+    margin: 5px 0;
+}
+
 @media screen and (min-width: 768px) {
     nav {
         display: block;
