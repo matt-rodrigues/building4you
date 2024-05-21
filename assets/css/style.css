@@ -237,10 +237,35 @@ main {
 }
 
 .firsthowtohelp img {
-    float: right;
+    float: left;
     width: 450px;
     margin-right: 50px;
+}
+
+.depoiment-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.depoiment {
+    display: flex;
+    align-items: center;
+}
+
+.depoiment .image {
+    margin-right: 20px;
+}
+
+.depoiment .image-depoiment img {
+    width: 150px;
     height: auto;
+    border-radius: 50%;
+}
+
+.depoiment .text {
+    flex: 1;
+}
 
 #contact {
     font-size: large;
