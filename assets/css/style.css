@@ -219,6 +219,29 @@ main {
     font-size: 14px;
 }
 
+#howtohelp {
+    background-color: #faf9f6;
+    margin: 40px 0;
+}
+
+.firsthowtohelp {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.howtohelp p {
+    padding: 0 20px;
+    margin: 5px 0;
+    font-size: large;
+}
+
+.firsthowtohelp img {
+    float: right;
+    width: 450px;
+    margin-right: 50px;
+    height: auto;
+
 #contact {
     font-size: large;
     padding: 0 20px;
