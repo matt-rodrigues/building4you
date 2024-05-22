@@ -238,7 +238,7 @@ main {
 
 .howtohelp-section .image-howto img {
     width: 100%;
-    max-width: 350px; 
+    max-width: 300px; 
     height: auto;
     margin: 0 auto;
 }
@@ -364,7 +364,7 @@ main {
 }
 
 .howtohelp-section .image-howto img {
-    max-width: 350px; 
+    max-width: 300px; 
     margin: 0;
 }
 }
