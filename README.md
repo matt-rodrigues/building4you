@@ -79,11 +79,11 @@ The live link can be found here - [building4u](https://izabellalopes.github.io/c
 ### Validator Testing 
 
 - HTML: No errors were returned when passing through the official W3C validator.
-  * [Index Page HTML](documentation/testing/w3c/w3c-index.png)
-  * [About CheckUp Dublin Center Page HTML](documentation/testing/w3c/w3c-about.png)
-  * [Services Page HTML](documentation/testing/w3c/w3c-services.png)
-  * [Contact us Page HTML](documentation/testing/w3c/w3c-contact.png)
-  * [Thank you Page HTML](documentation/testing/w3c/w3c-thankyou.png)
+  * [Index Page HTML](documents/test/test-homepage.png)
+  * [About Us Page HTML](documents/test/test-aboutus.png)
+  * [How to Help Page HTML](documents/test/test-howtohelp.png)
+  * [Contact us Page HTML](documents/test/test-contactus.png)
+  * [Thank Page HTML](documents/test/test-thank.png)
  
 - CSS: No errors were found when passing through the official Jigsaw validator.
    * [style.css](documentation/testing/w3c/w3c-css.png)
