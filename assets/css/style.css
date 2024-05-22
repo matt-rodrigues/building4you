@@ -238,7 +238,7 @@ main {
 
 .howtohelp-section .image-howto img {
     width: 100%;
-    max-width: 300px;
+    max-width: 350px; 
     height: auto;
     margin: 0 auto;
 }
@@ -302,7 +302,6 @@ main {
         margin: 0 0.5rem;
     }
 
-
     main {
         margin-top: 80px;
     }
@@ -353,7 +352,7 @@ main {
     margin: 10px;
 }
 .howtohelp-section .howtohelp {
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
     text-align: left;
 }
@@ -365,7 +364,7 @@ main {
 }
 
 .howtohelp-section .image-howto img {
-    max-width: 400px;
+    max-width: 350px; 
     margin: 0;
 }
 }
