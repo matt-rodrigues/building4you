@@ -184,7 +184,6 @@ main {
     font-size: large;
 }
 
-/* Styles for Facilitator Section */
 #our-facilitator {
     background-color: #faf9f6;
     padding: 20px;
@@ -219,27 +218,29 @@ main {
     font-size: 14px;
 }
 
-#howtohelp p {
-    padding: 0 20px;
-    margin: 5px 0;
+.howtohelp-section {
+    background-color: #faf9f6;
+    padding: 20px;
 }
 
 .howtohelp-section .howtohelp {
-    background-color: #faf9f6;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .howtohelp-section .text-howto {
     flex: 1;
-    margin-right: 20px;
+    padding: 20px;
 }
 
 .howtohelp-section .image-howto img {
-    width: 400px;
+    width: 100%;
+    max-width: 300px;
     height: auto;
+    margin: 0 auto;
 }
 
 .depoiment-section {
@@ -350,6 +351,22 @@ main {
 .team-facilitator {
     flex: 1 1 200px;
     margin: 10px;
+}
+.howtohelp-section .howtohelp {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.howtohelp-section .text-howto {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.howtohelp-section .image-howto img {
+    max-width: 400px;
+    margin: 0;
 }
 }
 
