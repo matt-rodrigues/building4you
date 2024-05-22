@@ -159,42 +159,42 @@ main {
 
 #welcome {
     background-color: #faf9f6;
-}
-.welcome p {
-    padding: 0 20px;
-    margin: 5px 0;
-    font-size: large;
+    padding: 20px;
 }
 
-.welcome img {
-    float: left;
-    width: 350px;
-    margin-right: 50px;
-}
-
-#howtohelp p {
-    padding: 0 20px;
-    margin: 5px 0;
-}
-
-#our-facilitator {
+.welcome {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #faf9f6;
-    margin: 20px 0;
-    padding: 20px 0;
 }
-.our-facilitator {
-    text-align: center;
-    padding: 20px;
+
+.welcome img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.welcome-text {
+    padding: 0 20px;
+}
+
+.welcome p {
+    margin: 10px 0;
     font-size: large;
+}
+
+/* Styles for Facilitator Section */
+#our-facilitator {
+    background-color: #faf9f6;
+    padding: 20px;
+    text-align: center;
 }
 
 .team-container {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
 }
 
@@ -217,6 +217,11 @@ main {
 .text-facilitator {
     margin: 0;
     font-size: 14px;
+}
+
+#howtohelp p {
+    padding: 0 20px;
+    margin: 5px 0;
 }
 
 .howtohelp-section .howtohelp {
@@ -321,7 +326,31 @@ main {
     #services-mental > div {
         text-align: end;
         align-self: flex-end;
-    }
+   }
+   .welcome {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.welcome img {
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.welcome-text {
+    max-width: 600px;
+}
+
+.team-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-facilitator {
+    flex: 1 1 200px;
+    margin: 10px;
+}
 }
 
 @media screen and (min-width: 992px) {
