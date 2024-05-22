@@ -72,7 +72,7 @@ Google Maps- For the virtual map on the Contact us page.
    - In the "Source" section, choose "main" from the branch selection dropdown menu. Select "Root" from the folder selection dropdown menu.
    - Click on "Save." Your GitHub Pages site is now deployed and can be accessed at the displayed URL.
 
-The live link can be found here - [building4u](https://izabellalopes.github.io/checkup-dublin/)  
+The live link can be found here - [building4u](https://github.com/matt-rodrigues/building4you.git)  
 
 - - -
 
