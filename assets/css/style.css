@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-/*ADD COMMENTES!!!!!!*/
+
 body {
     min-height: 100vh;
     display: flex;
@@ -36,6 +36,8 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
+/* navigation links */
 
 #menu {
     font-size: 110%;
@@ -78,6 +80,8 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
+/* hero-image and cover-text*/
 
 #hero {
     height: 600px;
@@ -157,6 +161,9 @@ main {
     color: #3a3a3a;
 }
 
+
+/*about us page*/
+
 #welcome {
     background-color: #faf9f6;
     padding: 20px;
@@ -218,6 +225,8 @@ main {
     font-size: 14px;
 }
 
+/*how to help page*/
+
 .howtohelp-section {
     background-color: #faf9f6;
     padding: 20px;
@@ -268,6 +277,8 @@ main {
 .depoiment .text {
     flex: 1;
 }
+
+/*contact us page*/
 
 #contact {
     font-size: large;
