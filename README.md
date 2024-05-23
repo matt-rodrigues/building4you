@@ -6,10 +6,10 @@ With a team of trained and compassionate professionals, we aim to ensure that ea
 
 I chose to use exclusively lowercase letters throughout the site to improve accessibility and readability, especially for people with dyslexia. Studies show that lowercase letters have more consistent and distinct shapes, making it easier to identify and quickly read words, reducing visual confusion and common reading errors among dyslexic individuals. This design choice aims to create a more inclusive and user-friendly digital environment for all users.
 
-[View building4u Website](https://github.com/matt-rodrigues/building4you)
+[View building4u Website](https://matt-rodrigues.github.io/building4you/)
 
 
-##Content
+## Content
 
 ### Typography
 
@@ -50,7 +50,7 @@ By implementing these considerations, I have strived to enhance the overall acce
 
 This website was created using HTML and CSS.
 
-### Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Tools Used
 
 Github - To save and store the files for the website.
 
